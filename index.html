@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="responsivo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section class="apresentacao">
+    <section class="apresentacao" id="apresetacao">
         <header class="cabecalho">
             <h1 class="titulo-cabecalho">Gustavo</h1>
             <nav class="cabecalho-menu">
-                <a href="#" class="cabecalho-menu-item">Home</a>
+                <a href="#apresetacao" class="cabecalho-menu-item">Home</a>
                 <a href="#box-sobre" class="cabecalho-menu-item">Sobre Mim</a>
                 <a href="#projetos" class="cabecalho-menu-item">Projetos</a>
             </nav>
@@ -25,8 +26,8 @@
                 <span class="descricao-titulo white">Sou desenvolvedor web</span>
                 <p class="descricao-texto white">Ajudando empresas a construírem produtos digitais<br> de forma moderna e de alta qualidade.</p>
                 <div class="botoes">
-                    <a href="#" class="botao">Ver os projetos</a>
-                    <a href="#" class="botao">Contato</a>
+                    <a href="https://github.com/GustavoHLaurindo" class="botao">Ver os projetos</a>
+                    <a href="https://www.instagram.com/gu_henrique_brr/" class="botao">Contato</a>
                 </div>
             </div>
         </div>
@@ -79,6 +80,15 @@
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
    <script>
     AOS.init()
+    $('nav.cabecalho-menu a[href^="#"]').on('click', function(e) {
+    e.preventDefault();
+    var id = $(this).attr('href'),
+            targetOffset = $(id).offset().top;
+            
+    $('html, body').animate({ 
+        scrollTop: targetOffset - 100
+    }, 500);
+});
 </script>
 </body>
 </html>
