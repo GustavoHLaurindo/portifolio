@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+</head>
+<body>
+    <section class="apresentacao">
+        <header class="cabecalho">
+            <h1 class="titulo-cabecalho">Gustavo</h1>
+            <nav class="cabecalho-menu">
+                <a href="#" class="cabecalho-menu-item">Home</a>
+                <a href="#box-sobre" class="cabecalho-menu-item">Sobre Mim</a>
+                <a href="#projetos" class="cabecalho-menu-item">Projetos</a>
+            </nav>
+        </header>
+        <div class="align">
+            <div class="apresentacao-textos" data-aos="fade-left">
+                <span class="hello white">Hello!<br></span>
+                <span class="descricao-titulo white">Sou desenvolvedor web</span>
+                <p class="descricao-texto white">Ajudando empresas a construírem produtos digitais<br> de forma moderna e de alta qualidade.</p>
+                <div class="botoes">
+                    <a href="#" class="botao">Ver os projetos</a>
+                    <a href="#" class="botao">Contato</a>
+                </div>
+            </div>
+        </div>
+    </section>  
+   <section class="sobre" id="box-sobre">
+        <div class="box-sobre" >
+            <div class="box-image">
+                <div class="foto-gustavo"><img src="imagens/gustavo.jpg" alt=""></div>
+                <div class="js">
+                    <img src="imagens/logo-javscript.png" alt="">
+                </div>
+                <div class="css">
+                    <img src="imagens/css-cor.svg" alt="">
+                </div>
+                <div class="html">
+                    <img src="imagens/foto-html.png" alt="">
+                </div>
+            </div>
+            <div class="texto-sobre" data-aos="fade-left">
+                <h2 class="titulo-sobre">Quem Sou.</h2>
+                <p>Meu nome é Gustavo, ou pode me chamar de "Gu" (é como me chamam utimamente) estudo sobre desenvolvimento Web a mais de 1 ano, Mas antes da paixão pelo front-end estudei muito a linguagem C++ usando arduino para criação de projetos de robótica, Com orientação de professores do Naah/s   (Nucleo de Altas Habilidades e superdotação</p>
+            </div>
+        </div>
+   </section>
+   <section id="projetos">
+       <div class="titulo">
+        <h2 class="titulo-projeto">Projetos</h2>
+       </div>
+       <div class="box-projetos">
+           <div class="apresentacao-projetos">
+               <div class="box" data-aos="fade-right">
+                   <h2 class="titulo-box">My Doces</h2>
+                   <p class="paragrafo-projeto-item">Criei uma loja virtual de Balas para um trabalho de Educação Financeira </p>
+                   <a href="#" class="link-projeto">Visualizar Projeto</a>
+               </div>
+               <div class="box" id="meio"  data-aos="fade-down">
+                <h2 class="titulo-box">Responsivo</h2>
+                <p class="paragrafo-projeto-item">Projeto de login com Responsividade para todo tipo de dispositivos</p>
+                <a href="#"  class="link-projeto">Visualizar Projeto</a>
+               </div>
+               <div class="box"  data-aos="fade-left">
+                <h2 class="titulo-box">Purple Landing Page</h2>
+                <p class="descricao-projeto-item">lading page de uma newslatter</p>
+                <a href="#" class="link-projeto">Visualizar Projeto</a>
+               </div>
+           </div>
+       </div>
+        <a  id="mais-projetos" href="#">Mais projetos</a>
+   </section>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init()
+</script>
+</body>
+</html>
