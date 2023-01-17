@@ -28,10 +28,7 @@ html{
 
 
 header.cabecalho{
-    position: fixed;
-    top: 0;
     display: flex;
-    flex-direction: row;
     align-items: center;
     position: fixed;
     justify-content: space-between;
@@ -73,7 +70,6 @@ div.apresentacao-textos{
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-
     width: fit-content;
     backdrop-filter: blur(5px);
     
@@ -108,6 +104,7 @@ a.botao{
 section.sobre{
     padding: 90px 71px;
     background-color: #040405;
+    border-top: 2px solid rgba(128, 128, 128, 0.603);
     display: flex;
     
     

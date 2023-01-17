@@ -1,0 +1,44 @@
+@media screen and (min-width:375px) and (max-width: 768px){
+    span.hello{
+        font-size: 20px;
+    }
+    span.descricao-titulo{
+        font-size: 25px;
+    }
+    div.texto-sobre{
+        width: 100%;
+    }
+    div.js,div.css,div.html{
+        animation: none;
+    }
+    div.apresentacao-projetos{
+        flex-direction: column;
+        gap: 20px;
+    }
+    div.box{
+        width: fit-content;
+        
+    }
+    .cabecalho{
+        flex-direction: column;
+    }
+    .apresentacao{
+        padding: 0px 10px;
+        padding-bottom: 20px;
+    }
+    a.cabecalho-menu-item{
+        margin-right: 10px;
+    
+    }
+    section.sobre{
+        padding: 90px 39px;
+    }
+    a#mais-projetos{
+        font-size: 26px;
+    }
+}
+@media screen and (min-width: 1200px){
+    div.texto-sobre{
+        width: 36%;
+    }
+}
