@@ -90,6 +90,8 @@ p.descricao-texto{
 }
 div.botoes{
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 a.botao{
     padding: 15px;
@@ -106,8 +108,6 @@ section.sobre{
     background-color: #040405;
     border-top: 2px solid rgba(128, 128, 128, 0.603);
     display: flex;
-    
-    
 }
 div.box-image{
     position: relative;
@@ -167,9 +167,8 @@ div.js img, div.css img,div.html img{
 div.box-sobre{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 105px;
+    gap: 100px;
 }
 h2.titulo-sobre{
     font-size: 40px;

@@ -1,15 +1,34 @@
-@media screen and (min-width:375px) and (max-width: 768px){
+@media screen and (min-width:300px) and (max-width: 768px){
+    header.cabecalho{
+        padding: 10px;
+    }
+    .cabecalho-menu{
+        display: none;
+    }
     span.hello{
         font-size: 20px;
     }
     span.descricao-titulo{
         font-size: 25px;
     }
+    .botoes{
+        gap: 14px;
+    }
+    div.box-sobre{
+        gap: 30px;
+        flex-direction: column;
+    }
     div.texto-sobre{
         width: 100%;
     }
     div.js,div.css,div.html{
         animation: none;
+        width: 46px;
+        height: 52px;
+    }
+    div.js img, div.css img,div.html img{
+        width: 32px;
+        height: 32px;
     }
     div.apresentacao-projetos{
         flex-direction: column;
@@ -34,10 +53,17 @@
         padding: 90px 39px;
     }
     a#mais-projetos{
-        font-size: 26px;
+        font-size: 19px;
+    }
+    a.link-projeto{
+        font-size: 13px;
+    }
+    .foto-gustavo img{
+        width: 200px;
+        height: 200px;
     }
 }
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1300px){
     div.texto-sobre{
         width: 36%;
     }
