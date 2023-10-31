@@ -195,10 +195,10 @@ h2.titulo-projeto{
 }
 div.apresentacao-projetos{
     display: flex;
+    gap: 20px;
     justify-content: space-around;
 }
 div.box{
-    width: 32%;
     padding: 20px;
     border: 2px solid white;
     border-radius: 10px;
