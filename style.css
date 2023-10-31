@@ -252,3 +252,8 @@ a#mais-projetos{
     font-size: 32px;
     border: 2px solid white;
 }
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .imagem-box{
+        display: none;
+    }
+}
