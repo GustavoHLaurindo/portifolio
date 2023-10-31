@@ -178,7 +178,7 @@ div.texto-sobre{
     width: 50%;
 }
 section#projetos{
-    padding: 50px 80px 100px 80px;
+    padding: 50px 33px 100px 33px;
     height: fit-content;
     align-items: center;
     flex-direction: column;
@@ -203,9 +203,17 @@ div.box{
     border: 2px solid white;
     border-radius: 10px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+div.box .imagem-box{
+    margin-top: 20px;
+    object-fit: cover;
 }
 div.box:first-child{
-    border-image-source: linear-gradient( 30deg, #6310f3, #ec8f24);
+    border-image-source: linear-gradient( 30deg, #10d1f3, #248bec);
     border-image-slice: 1;
     border-width: 5px;
     border-radius: 20px;
@@ -217,7 +225,7 @@ div.box#meio{
     border-radius: 20px;
 }
 div.box:last-child{
-    border-image-source: linear-gradient(40deg, #a233fd, #5703a5);
+    border-image-source: linear-gradient(40deg, #fd8e33, #f1ee08);
     border-image-slice: 1;
     border-width: 5px;
     border-radius: 20px;
